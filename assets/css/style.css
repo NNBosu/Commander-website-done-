@@ -79,7 +79,9 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a { text-decoration: none; 
+color:hsl(0, 0%, 100%)
+}
 
 li { list-style: none; }
 
@@ -1434,7 +1436,7 @@ body.dark {
 }
 
 .social-panel ul li a {
-	border: 1px solid #ffe712;
+	border: 1px solid #ffffff;
 	border-radius: 50%;
 	color: #edfd05;
 	font-size: 20px;
@@ -1533,4 +1535,3 @@ main {
   color: var(--primary);
   font-size: 24px;
 }
-
