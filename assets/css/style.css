@@ -1506,3 +1506,31 @@ body.dark {
 	}
 }
 /*Theme End*/
+
+main {
+  margin-top: 85px;
+}
+
+.logo {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-left: 10%;
+  transition: .5s ease-in-out;
+}
+
+.logo:hover {
+  cursor: pointer;
+  filter: brightness(110%);
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo h3 {
+  font-family: UniSansHeavy, sans-serif;
+  color: var(--primary);
+  font-size: 24px;
+}
+
